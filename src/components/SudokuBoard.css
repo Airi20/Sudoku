@@ -1,15 +1,16 @@
 .board {
   display: grid;
   grid-template-rows: repeat(9, 1fr);
-  gap: 2px;
+  gap: 1px;
   width: 270px;
   margin: auto;
+  
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  gap: 2px;
+  gap: 1px;
 }
 
 .cell {
@@ -19,6 +20,7 @@
   font-size: 16px;
   border: none;
   box-sizing: border-box;
+  background-color: aliceblue;
 }
 
 
