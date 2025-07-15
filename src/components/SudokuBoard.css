@@ -18,9 +18,11 @@
   height: 30px;
   text-align: center;
   font-size: 16px;
+  color: black;
+  text-decoration-color: #4CAF50;
   border: none;
   box-sizing: border-box;
-  background-color: aliceblue;
+  background-color: #ffF;
 }
 
 
@@ -37,4 +39,11 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+body {
+  background-color: #ffe4f0; /* 淡ピンク！ */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
