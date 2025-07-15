@@ -18,7 +18,8 @@ export default function App() {
   const [message, setMessage] = useState("");
   const [showComment, setShowComment] = useState(false);
 
-  const fixedCells = grid.map(row => row.map(cell => cell !== null));
+  const fixedCells = initialGrid.map(row => row.map(cell => cell !== null));
+
 
   const solution = [
     [5, 3, 4, 6, 7, 8, 9, 1, 2],
