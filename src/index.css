@@ -23,12 +23,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #ffc0cb; /* かわいいピンク */
+  color: #333; /* 文字は見やすく濃いめ */
+  font-family: 'Arial', sans-serif;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -36,18 +35,18 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #1e88e5; /* 爽やかブルー */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
   cursor: pointer;
-  transition: border-color 0.25s;
+  box-shadow: 0 0 8px #1e88e5aa;
+  transition: background-color 0.3s ease;
 }
+
 button:hover {
-  border-color: #646cff;
+  background-color: #1565c0;
 }
 button:focus,
 button:focus-visible {
